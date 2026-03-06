@@ -24,7 +24,7 @@ public class ContaBancaria {
             int cedulas_100 = (int)valor / 100;
             int cedulas_50 = ((int)valor % 100) / 50;
             int cedulas_20 = ((int)valor % 50) / 20;
-            int cedulas_10 = ((int)valor % 20) / 10;
+            int cedulas_10 = ((int)valor % 50) / 10;
             int cedulas_5 = ((int)valor % 10) / 5;
             int cedulas_1 = ((int)valor % 5);
 
